@@ -99,7 +99,7 @@ body {
   width: calc(100% / 6);
 }
 .stats_container {
-  margin-top: 15px;
+  padding-top: 10px;
   text-align: center;
   color: #767C87;
   font-weight: bold;
@@ -179,6 +179,9 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
+}
+.stat h4 {
+  font-size: 1.5rem;
 }
 
 /* STAT LINE PERCENTAGE */
