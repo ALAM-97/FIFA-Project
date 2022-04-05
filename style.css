@@ -98,7 +98,7 @@ body {
 .stats_container .stat {
   width: calc(100% / 6);
 }
-.stats_container h5 {
+.stats_container {
   margin-top: 15px;
   text-align: center;
   color: #767C87;
