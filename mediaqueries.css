@@ -1,0 +1,28 @@
+@media screen and (max-width: 840px) {
+  .player_attributes_body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .player_card,
+  .player_stats {
+    width: 100%;
+  }
+  .stat {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .player_sections_menu {
+    flex-wrap: wrap;
+  }
+  .player_sections_text {
+    width: 100%;
+  }
+  .stats_container {
+    flex-wrap: wrap;
+  }
+  .stats_container .stat {
+    width: calc(100% / 2 );
+  }
+}
